@@ -1,4 +1,6 @@
-crypt.pyc | test.pyc
+## 0ctf quals 2017: py
+
+https://github.com/ctfs/write-ups-2017/tree/master/0ctf-quals-2017/reverse/py-137
 
 Some notes from guessed opcodes (result from 'python dec.py test.py'):
 ```
