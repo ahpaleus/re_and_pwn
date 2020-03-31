@@ -1,3 +1,5 @@
+_PWNing 2016, pwn, points: 150_
+
 ### AFL setup:
 ```sh
 $ mkdir input
