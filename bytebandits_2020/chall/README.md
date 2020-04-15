@@ -1,5 +1,5 @@
+![screenshot.png](screenshot.png)
 
-[screenshot]: https://github.com/ahpaleus/re_and_pwn/tree/master/bytebandits_2020/chall/screenshot.png "Screenshot"
 
 ```py
 from pwn import *
